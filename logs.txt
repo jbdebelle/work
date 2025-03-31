@@ -16,4 +16,28 @@ Traceback (most recent call last):
   File "C:\Users\proj_\.pyenv\pyenv-win\versions\3.12.0\Lib\subprocess.py", line 1538, in _execute_child
     hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [WinError 2] Le fichier sp�cifi� est introuvable
+FileNotFoundError: [WinError 2] Le fichier spécifié est introuvable
+
+
+
+
+
+
+
+
+
+
+(annotation-env-py3.12) C:\Users\proj_\Hyperion\annotation_env>python main.py                 
+'git' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+Traceback (most recent call last):
+  File "C:\Users\proj_\Hyperion\annotation_env\main.py", line 1, in <module>
+    from autodistill_grounded_sam_2 import GroundedSAM2
+  File "C:\Users\proj_\AppData\Local\pypoetry\Cache\virtualenvs\annotation-env-dF0xGRA8-py3.12\Lib\site-packages\autodistill_grounded_sam_2\__init__.py", line 1, in <module>
+    from autodistill_grounded_sam_2.grounded_sam_2 import GroundedSAM2
+  File "C:\Users\proj_\AppData\Local\pypoetry\Cache\virtualenvs\annotation-env-dF0xGRA8-py3.12\Lib\site-packages\autodistill_grounded_sam_2\grounded_sam_2.py", line 17, in <module>
+    SamPredictor = load_SAM()
+                   ^^^^^^^^^^
+  File "C:\Users\proj_\AppData\Local\pypoetry\Cache\virtualenvs\annotation-env-dF0xGRA8-py3.12\Lib\site-packages\autodistill_grounded_sam_2\helpers.py", line 37, in load_SAM
+    os.chdir("segment-anything-2")
+FileNotFoundError: [WinError 2] Le fichier spécifié est introuvable: 'segment-anything-2'
