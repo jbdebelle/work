@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\Users\proj_\Hyperion\annotation_env\main.py", line 1, in <module>
+    from autodistill_grounded_sam_2 import GroundedSAM2
+  File "C:\Users\proj_\AppData\Local\pypoetry\Cache\virtualenvs\annotation-env-dF0xGRA8-py3.12\Lib\site-packages\autodistill_grounded_sam_2\__init__.py", line 1, in <module>
+    from autodistill_grounded_sam_2.grounded_sam_2 import GroundedSAM2
+  File "C:\Users\proj_\AppData\Local\pypoetry\Cache\virtualenvs\annotation-env-dF0xGRA8-py3.12\Lib\site-packages\autodistill_grounded_sam_2\grounded_sam_2.py", line 17, in <module>
+    SamPredictor = load_SAM()
+                   ^^^^^^^^^^
+  File "C:\Users\proj_\AppData\Local\pypoetry\Cache\virtualenvs\annotation-env-dF0xGRA8-py3.12\Lib\site-packages\autodistill_grounded_sam_2\helpers.py", line 29, in load_SAM
+    subprocess.run(
+  File "C:\Users\proj_\.pyenv\pyenv-win\versions\3.12.0\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\proj_\.pyenv\pyenv-win\versions\3.12.0\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\proj_\.pyenv\pyenv-win\versions\3.12.0\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] Le fichier spécifié est introuvable
